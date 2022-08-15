@@ -9,16 +9,16 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'YourServiceConnectionName'
+  azureSubscription: 'azure-flatris-service-connection'
 
   # Web app name
-  webAppName: 'YourLinuxApp'
+  webAppName: 'tl-flatris-game'
 
   # Resource group
-  resourceGroupName: 'YourRG'
+  resourceGroupName: 'tl-flatris-rg'
 
   # Environment name
-  environmentName: 'YourLinuxApp'
+  environmentName: 'tl-flatris-game'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
